@@ -2,12 +2,31 @@
     margin:0;
     font-family: 'Open Sans', sans-serif;
 }
+
+.text-primary{
+    color: #FD6E0A;
+}
+.btn-primary{
+    height: 61px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: #FFFFFF;
+}
 /* header and navigation styles */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 250px;
+}
 .nav-title{
     font-weight: 800;
     font-size: 45px;
 }
-
-.text-primary{
-    color: #FD6E0A;
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul{
+    display: flex;
 }
