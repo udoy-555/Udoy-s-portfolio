@@ -73,9 +73,9 @@ nav ul {
     margin-bottom: 30px;
 }
 
+/* udoy's photo */
 .udoy-image {
-    margin-left: 400px;
-    height: 676px;
+    margin: 0% 0% -1.5% 40%;
     transform: scaleX(-1);
 }
 
