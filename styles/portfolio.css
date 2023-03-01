@@ -158,12 +158,14 @@ main {
 
 .resume-content {
     display: flex;
+    gap: 24px;
 }
 
 .resume .title {
     font-weight: 700;
     font-size: 25px;
     color: darkblue;
+    margin-bottom: 10px;
 }
 
 .resume .sub-title {
@@ -174,4 +176,31 @@ main {
 
 .resume .description {
     color: #757575;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+/* contact styles */
+.contact .section-title{
+    text-align: left;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background:  #FFF8F3;
+    padding: 130px 200px;
+}
+.contact input, textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+.contact a{
+    text-decoration: none;
 }
